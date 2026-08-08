@@ -186,7 +186,7 @@ My flagship project, **[VeriFace Edge](https://github.com/ahmedkobbi/veriface-ed
 </div>
 
 <div align="center">
-<sub>© 2026 Ahmed Kobbi · Built with privacy, secured by cryptography, deployed with automation.</sub>
+<sub>© 2026 Ahmed Kobbi. · Built with privacy, secured by cryptography, deployed with automation.</sub>
 </div>
 
 <!-- Footer Banner -->

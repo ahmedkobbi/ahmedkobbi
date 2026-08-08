@@ -145,17 +145,25 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 
 [![veriface](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=veriface&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/veriface)
 [![Posidon_Licensing_Server](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=Posidon_Licensing_Server&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/Posidon_Licensing_Server)
-[![vmpscope](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=vmpscope&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/vmpscope)
+
+<!-- vmpscope is private — github-readme-stats can't render it, so we use a custom badge -->
+<a href="https://github.com/ahmedkobbi/vmpscope">
+<img src="https://img.shields.io/badge/🔒_vmpscope-Private_Repo-00ff9c?style=flat-square&logo=python&logoColor=white&labelColor=0d1117&color=1a1a2e" alt="vmpscope" />
+</a>
 
 </div>
 
 ### Repo Summary
 
-| Repository | Description | Tech Stack |
-|------------|-------------|------------|
-| [veriface](https://github.com/ahmedkobbi/veriface) | Privacy-first facial authentication SaaS with post-quantum crypto, ZK proofs, 8 SDKs, military-grade security (OWASP 10/10 PASS, 88 findings fixed) | TypeScript, Next.js 16, Prisma, Ed25519, ML-DSA-87, PLONK, Docker, K8s, Redis, PostgreSQL |
-| [Posidon_Licensing_Server](https://github.com/ahmedkobbi/Posidon_Licensing_Server) | Production-grade licensing, entitlement & authentication platform with RBAC, GraphQL, customer portal, webhook retry queue, audit log, MFA | Next.js 16, Prisma, GraphQL, RBAC, MFA, Webhook Queue, Audit Log |
-| [vmpscope](https://github.com/ahmedkobbi/vmpscope) | Multi-tenant SaaS for automated VMProtect unpacking & analysis. 13-phase pipeline, token-based billing, STIX 2.1 export, military-grade security (10 vulns fixed in pentest audit) | Python 3.12, FastAPI, Next.js 16, PostgreSQL (RLS), Redis, Celery, MinIO, Argon2id, Ed25519, AES-256-GCM, Docker, K8s, Stripe |
+| Repository | Visibility | Description | Tech Stack |
+|------------|-----------|-------------|------------|
+| [veriface](https://github.com/ahmedkobbi/veriface) | 🌐 Public | Privacy-first facial authentication SaaS with post-quantum crypto, ZK proofs, 8 SDKs, military-grade security (OWASP 10/10 PASS, 88 findings fixed) | TypeScript, Next.js 16, Prisma, Ed25519, ML-DSA-87, PLONK, Docker, K8s, Redis, PostgreSQL |
+| [Posidon_Licensing_Server](https://github.com/ahmedkobbi/Posidon_Licensing_Server) | 🌐 Public | Production-grade licensing, entitlement & authentication platform with RBAC, GraphQL, customer portal, webhook retry queue, audit log, MFA | Next.js 16, Prisma, GraphQL, RBAC, MFA, Webhook Queue, Audit Log |
+| [vmpscope](https://github.com/ahmedkobbi/vmpscope) | 🔒 Private | Multi-tenant SaaS for automated VMProtect unpacking & analysis. 13-phase pipeline, token-based billing, STIX 2.1 export, military-grade security (10 vulns fixed in pentest audit) | Python 3.12, FastAPI, Next.js 16, PostgreSQL (RLS), Redis, Celery, MinIO, Argon2id, Ed25519, AES-256-GCM, Docker, K8s, Stripe |
+| [epe-tvc-webapp](https://github.com/ahmedkobbi/epe-tvc-webapp) | 🔒 Private | EPE TVC public website & admin CMS with content management, SEO optimization, and responsive design | Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL |
+| [OrdreDeMissionGenerator](https://github.com/ahmedkobbi/OrdreDeMissionGenerator) | 🔒 Private | Automated generation of mission orders, payment orders, attribution letters, and account tables for enterprise HR | C#, .NET 8, WPF, MVVM, QuestPDF |
+| [APKPopupInjector](https://github.com/ahmedkobbi/APKPopupInjector) | 🔒 Private | Android APK analysis tool — injects popup dialogs into APKs for dynamic analysis and reverse engineering | `Android` `APK` `Reverse Engineering` |
+| [portfolio](https://github.com/ahmedkobbi/portfolio) | 🔒 Private | DZxZeroDay cybersecurity & software portfolio with project showcases, security writeups, and service offerings | Next.js, TypeScript, Tailwind CSS |
 
 ---
 
@@ -166,11 +174,19 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 | Project | Status | Problem | Approach | Stack |
 |---------|--------|---------|----------|-------|
 | **Enterprise ERP Platform** | In Production | Multi-site ops needed one system for workflows, inventory, and reporting | Customized Perfex CRM with REST integrations and BI views | `Perfex CRM` `PHP` `MySQL` `REST API` `BI` |
-| **ENTERPRISE_ODM** | In Production | HR mission orders were slow and hard to print to official standards | WPF/.NET 8 desktop app with MVVM and QuestPDF for pixel-accurate documents | `WPF` `.NET 8` `C#` `QuestPDF` `MVVM` |
+| **ENTERPRISE_ODM** (OrdreDeMissionGenerator) | In Production | HR mission orders were slow and hard to print to official standards | WPF/.NET 8 desktop app with MVVM and QuestPDF for pixel-accurate documents | `WPF` `.NET 8` `C#` `QuestPDF` `MVVM` |
 | **Enterprise GED Platform** | In Production | Documents lacked controlled access, version history, and auditability | React/Express/MongoDB with RBAC, search, versioning, audit logs | `React` `Express` `Node.js` `MongoDB` `RBAC` |
+| **EPE TVC WebApp** | In Production | Enterprise needed a public-facing website with admin CMS and SEO | Next.js + TypeScript + Tailwind CSS + Prisma + PostgreSQL | `Next.js` `TypeScript` `Prisma` `PostgreSQL` `CMS` |
 | **Posidon_Licensing_Server** | Open Source | Software vendors need licensing, entitlement, and auth in one platform | Next.js 16 + Prisma + GraphQL + RBAC + MFA + webhook retry queue | `Next.js` `Prisma` `GraphQL` `RBAC` `MFA` |
 | **veriface** | Open Source | Face auth without raw biometric data leaving the device | On-device crypto + ZK proofs + server-side signing proxy + 8 SDKs | `TypeScript` `Ed25519` `ML-DSA-87` `PLONK` `Docker` `K8s` |
-| **vmpscope** | Open Source | Analysts need automated VMProtect unpacking without infrastructure | Multi-tenant SaaS with 13-phase analysis pipeline, token billing, WebSocket live updates, STIX 2.1 export, sandboxed Docker execution, 10 vulns fixed in pentest audit | `Python` `FastAPI` `Next.js` `PostgreSQL-RLS` `Redis` `Celery` `Argon2id` `Ed25519` `AES-256-GCM` `Stripe` |
+| **vmpscope** | 🔒 Private | Analysts need automated VMProtect unpacking without infrastructure | Multi-tenant SaaS with 13-phase analysis pipeline, token billing, WebSocket live updates, STIX 2.1 export, sandboxed Docker execution, 10 vulns fixed in pentest audit | `Python` `FastAPI` `Next.js` `PostgreSQL-RLS` `Redis` `Celery` `Argon2id` `Ed25519` `AES-256-GCM` `Stripe` |
+
+### Security Research Tools
+
+| Project | Status | Problem | Approach | Stack |
+|---------|--------|---------|----------|-------|
+| **APKPopupInjector** | 🔒 Private | Dynamic APK analysis needed custom dialog injection for runtime behavior testing | Android APK patching tool that injects popup dialogs for analysis and reverse engineering | `Android` `APK` `Smali` `Reverse Engineering` |
+| **Portfolio** | 🔒 Private | Cybersecurity portfolio needed to showcase writeups, projects, and services | Next.js with project showcases, security writeups, service offerings | `Next.js` `TypeScript` `Tailwind CSS` |
 
 ### Research Builds
 

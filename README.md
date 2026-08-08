@@ -145,6 +145,7 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 
 [![VeriFace Edge](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=veriface-edge&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/veriface-edge)
 [![Aegis License Platform](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=aegis-license-platform&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/aegis-license-platform)
+[![VMPscope SaaS](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=vmpscope-saas&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/vmpscope-saas)
 
 </div>
 
@@ -154,6 +155,7 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 |------------|-------------|------------|
 | [veriface-edge](https://github.com/ahmedkobbi/veriface-edge) | Privacy-first facial authentication SaaS with post-quantum crypto, ZK proofs, 8 SDKs, military-grade security (OWASP 10/10 PASS, 88 findings fixed) | TypeScript, Next.js 16, Prisma, Ed25519, ML-DSA-87, PLONK, Docker, K8s, Redis, PostgreSQL |
 | [aegis-license-platform](https://github.com/ahmedkobbi/aegis-license-platform) | Production-grade licensing, entitlement & authentication platform with RBAC, GraphQL, customer portal, webhook retry queue, audit log, MFA | Next.js 16, Prisma, GraphQL, RBAC, MFA, Webhook Queue, Audit Log |
+| [vmpscope-saas](https://github.com/ahmedkobbi/vmpscope-saas) | Multi-tenant SaaS for automated VMProtect unpacking & analysis. 13-phase pipeline, token-based billing, STIX 2.1 export, military-grade security (10 vulns fixed in pentest audit) | Python 3.12, FastAPI, Next.js 16, PostgreSQL (RLS), Redis, Celery, MinIO, Argon2id, Ed25519, AES-256-GCM, Docker, K8s, Stripe |
 
 ---
 
@@ -168,6 +170,7 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 | **Enterprise GED Platform** | In Production | Documents lacked controlled access, version history, and auditability | React/Express/MongoDB with RBAC, search, versioning, audit logs | `React` `Express` `Node.js` `MongoDB` `RBAC` |
 | **Aegis License Platform** | Open Source | Software vendors need licensing, entitlement, and auth in one platform | Next.js 16 + Prisma + GraphQL + RBAC + MFA + webhook retry queue | `Next.js` `Prisma` `GraphQL` `RBAC` `MFA` |
 | **VeriFace Edge** | Open Source | Face auth without raw biometric data leaving the device | On-device crypto + ZK proofs + server-side signing proxy + 8 SDKs | `TypeScript` `Ed25519` `ML-DSA-87` `PLONK` `Docker` `K8s` |
+| **VMPscope SaaS** | Open Source | Analysts need automated VMProtect unpacking without infrastructure | Multi-tenant SaaS with 13-phase analysis pipeline, token billing, WebSocket live updates, STIX 2.1 export, sandboxed Docker execution, 10 vulns fixed in pentest audit | `Python` `FastAPI` `Next.js` `PostgreSQL-RLS` `Redis` `Celery` `Argon2id` `Ed25519` `AES-256-GCM` `Stripe` |
 
 ### Research Builds
 

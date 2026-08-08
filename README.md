@@ -143,9 +143,9 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 
 <div align="center">
 
-[![VeriFace Edge](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=veriface-edge&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/veriface-edge)
-[![Aegis License Platform](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=aegis-license-platform&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/aegis-license-platform)
-[![VMPscope SaaS](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=vmpscope-saas&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/vmpscope-saas)
+[![VeriFace Edge](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=veriface&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/veriface)
+[![Posidon Licensing Server](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=Posidon_Licensing_Server&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/Posidon_Licensing_Server)
+[![VMPscope SaaS](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=vmpscope&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/vmpscope)
 
 </div>
 
@@ -153,9 +153,9 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 
 | Repository | Description | Tech Stack |
 |------------|-------------|------------|
-| [veriface-edge](https://github.com/ahmedkobbi/veriface-edge) | Privacy-first facial authentication SaaS with post-quantum crypto, ZK proofs, 8 SDKs, military-grade security (OWASP 10/10 PASS, 88 findings fixed) | TypeScript, Next.js 16, Prisma, Ed25519, ML-DSA-87, PLONK, Docker, K8s, Redis, PostgreSQL |
-| [aegis-license-platform](https://github.com/ahmedkobbi/aegis-license-platform) | Production-grade licensing, entitlement & authentication platform with RBAC, GraphQL, customer portal, webhook retry queue, audit log, MFA | Next.js 16, Prisma, GraphQL, RBAC, MFA, Webhook Queue, Audit Log |
-| [vmpscope-saas](https://github.com/ahmedkobbi/vmpscope-saas) | Multi-tenant SaaS for automated VMProtect unpacking & analysis. 13-phase pipeline, token-based billing, STIX 2.1 export, military-grade security (10 vulns fixed in pentest audit) | Python 3.12, FastAPI, Next.js 16, PostgreSQL (RLS), Redis, Celery, MinIO, Argon2id, Ed25519, AES-256-GCM, Docker, K8s, Stripe |
+| [veriface](https://github.com/ahmedkobbi/veriface) | Privacy-first facial authentication SaaS with post-quantum crypto, ZK proofs, 8 SDKs, military-grade security (OWASP 10/10 PASS, 88 findings fixed) | TypeScript, Next.js 16, Prisma, Ed25519, ML-DSA-87, PLONK, Docker, K8s, Redis, PostgreSQL |
+| [Posidon_Licensing_Server](https://github.com/ahmedkobbi/Posidon_Licensing_Server) | Production-grade licensing, entitlement & authentication platform with RBAC, GraphQL, customer portal, webhook retry queue, audit log, MFA | Next.js 16, Prisma, GraphQL, RBAC, MFA, Webhook Queue, Audit Log |
+| [vmpscope](https://github.com/ahmedkobbi/vmpscope) | Multi-tenant SaaS for automated VMProtect unpacking & analysis. 13-phase pipeline, token-based billing, STIX 2.1 export, military-grade security (10 vulns fixed in pentest audit) | Python 3.12, FastAPI, Next.js 16, PostgreSQL (RLS), Redis, Celery, MinIO, Argon2id, Ed25519, AES-256-GCM, Docker, K8s, Stripe |
 
 ---
 
@@ -168,7 +168,7 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 | **Enterprise ERP Platform** | In Production | Multi-site ops needed one system for workflows, inventory, and reporting | Customized Perfex CRM with REST integrations and BI views | `Perfex CRM` `PHP` `MySQL` `REST API` `BI` |
 | **ENTERPRISE_ODM** | In Production | HR mission orders were slow and hard to print to official standards | WPF/.NET 8 desktop app with MVVM and QuestPDF for pixel-accurate documents | `WPF` `.NET 8` `C#` `QuestPDF` `MVVM` |
 | **Enterprise GED Platform** | In Production | Documents lacked controlled access, version history, and auditability | React/Express/MongoDB with RBAC, search, versioning, audit logs | `React` `Express` `Node.js` `MongoDB` `RBAC` |
-| **Aegis License Platform** | Open Source | Software vendors need licensing, entitlement, and auth in one platform | Next.js 16 + Prisma + GraphQL + RBAC + MFA + webhook retry queue | `Next.js` `Prisma` `GraphQL` `RBAC` `MFA` |
+| **Posidon Licensing Server** | Open Source | Software vendors need licensing, entitlement, and auth in one platform | Next.js 16 + Prisma + GraphQL + RBAC + MFA + webhook retry queue | `Next.js` `Prisma` `GraphQL` `RBAC` `MFA` |
 | **VeriFace Edge** | Open Source | Face auth without raw biometric data leaving the device | On-device crypto + ZK proofs + server-side signing proxy + 8 SDKs | `TypeScript` `Ed25519` `ML-DSA-87` `PLONK` `Docker` `K8s` |
 | **VMPscope SaaS** | Open Source | Analysts need automated VMProtect unpacking without infrastructure | Multi-tenant SaaS with 13-phase analysis pipeline, token billing, WebSocket live updates, STIX 2.1 export, sandboxed Docker execution, 10 vulns fixed in pentest audit | `Python` `FastAPI` `Next.js` `PostgreSQL-RLS` `Redis` `Celery` `Argon2id` `Ed25519` `AES-256-GCM` `Stripe` |
 

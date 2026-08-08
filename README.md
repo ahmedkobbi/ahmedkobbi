@@ -143,9 +143,9 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 
 <div align="center">
 
-[![VeriFace Edge](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=veriface&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/veriface)
-[![Posidon Licensing Server](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=Posidon_Licensing_Server&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/Posidon_Licensing_Server)
-[![VMPscope SaaS](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=vmpscope&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/vmpscope)
+[![veriface](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=veriface&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/veriface)
+[![Posidon_Licensing_Server](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=Posidon_Licensing_Server&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/Posidon_Licensing_Server)
+[![vmpscope](https://github-readme-stats.vercel.app/api/pin/?username=ahmedkobbi&repo=vmpscope&theme=github_dark&title_color=00ff9c&icon_color=00ff9c&bg_color=0d1117&border_color=30363d)](https://github.com/ahmedkobbi/vmpscope)
 
 </div>
 
@@ -168,9 +168,9 @@ On the **research side**, I reverse binaries, analyze malware, and run vulnerabi
 | **Enterprise ERP Platform** | In Production | Multi-site ops needed one system for workflows, inventory, and reporting | Customized Perfex CRM with REST integrations and BI views | `Perfex CRM` `PHP` `MySQL` `REST API` `BI` |
 | **ENTERPRISE_ODM** | In Production | HR mission orders were slow and hard to print to official standards | WPF/.NET 8 desktop app with MVVM and QuestPDF for pixel-accurate documents | `WPF` `.NET 8` `C#` `QuestPDF` `MVVM` |
 | **Enterprise GED Platform** | In Production | Documents lacked controlled access, version history, and auditability | React/Express/MongoDB with RBAC, search, versioning, audit logs | `React` `Express` `Node.js` `MongoDB` `RBAC` |
-| **Posidon Licensing Server** | Open Source | Software vendors need licensing, entitlement, and auth in one platform | Next.js 16 + Prisma + GraphQL + RBAC + MFA + webhook retry queue | `Next.js` `Prisma` `GraphQL` `RBAC` `MFA` |
-| **VeriFace Edge** | Open Source | Face auth without raw biometric data leaving the device | On-device crypto + ZK proofs + server-side signing proxy + 8 SDKs | `TypeScript` `Ed25519` `ML-DSA-87` `PLONK` `Docker` `K8s` |
-| **VMPscope SaaS** | Open Source | Analysts need automated VMProtect unpacking without infrastructure | Multi-tenant SaaS with 13-phase analysis pipeline, token billing, WebSocket live updates, STIX 2.1 export, sandboxed Docker execution, 10 vulns fixed in pentest audit | `Python` `FastAPI` `Next.js` `PostgreSQL-RLS` `Redis` `Celery` `Argon2id` `Ed25519` `AES-256-GCM` `Stripe` |
+| **Posidon_Licensing_Server** | Open Source | Software vendors need licensing, entitlement, and auth in one platform | Next.js 16 + Prisma + GraphQL + RBAC + MFA + webhook retry queue | `Next.js` `Prisma` `GraphQL` `RBAC` `MFA` |
+| **veriface** | Open Source | Face auth without raw biometric data leaving the device | On-device crypto + ZK proofs + server-side signing proxy + 8 SDKs | `TypeScript` `Ed25519` `ML-DSA-87` `PLONK` `Docker` `K8s` |
+| **vmpscope** | Open Source | Analysts need automated VMProtect unpacking without infrastructure | Multi-tenant SaaS with 13-phase analysis pipeline, token billing, WebSocket live updates, STIX 2.1 export, sandboxed Docker execution, 10 vulns fixed in pentest audit | `Python` `FastAPI` `Next.js` `PostgreSQL-RLS` `Redis` `Celery` `Argon2id` `Ed25519` `AES-256-GCM` `Stripe` |
 
 ### Research Builds
 
